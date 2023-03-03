@@ -29,9 +29,9 @@
             "botId": "{{state.fx-resource-bot.botId}}",                
              "commands": [
                     {
-                     "id": "sixyoldify",
-                     "description": "Simplify your message",
-                     "title": "Explain to a six year old",
+                     "id": "simplify",
+                     "description": "Simplify it for me",
+                     "title": "Simplify it for me",
                      "type": "action",
                      "context": ["message"],
                      "fetchTask": true
