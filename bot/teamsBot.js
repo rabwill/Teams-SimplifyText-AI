@@ -117,19 +117,18 @@ async function callPrompt(data) {
   }
 }
 function generatePrompt(text) {
-  return `Conversation between an AI and a Human needs to simplify the message.
-    AI explains all messages in a simple and respectful manner.
+  return `Conversation between an AI and a Human where Human needs to simplify the message.
+    AI simplifies and explains the message in a simple language.
     
     Examples:
     
-    Human: What is Quantum Physics
-    AI: 
+    Human: A black hole is a region of spacetime where gravitational forces are so strong that they prevent anything, including light, from escaping. This arises due to the collapse of massive objects into a singularity, a point of infinite density, where the laws of physics as we know them break down
     
-    Current query:
+    AI: A black hole is a place in space where gravity is super strong, and it sucks up everything, even light! This happens because a really big thing called a singularity is formed when a huge object collapses. It's so tiny and dense that normal science doesn't work there.
     
+    Current query:    
   
-    Human: ${text}
-    
+    Human: ${text}    
     
     AI: `
 }
